@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+header{
+    border-bottom: 1px solid #000;
+    padding: 15px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+/* NavBar */
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    padding-left: 40px;
+}
+
+.bussines{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.user-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 40px;
+}
+
+.btn{
+    background-color: #942f2f;
+    height: 35px;
+    border-radius: 35px;
+    color: white;
+    padding: 8px 12px;
+}
+
+.btn:hover, a:hover{
+    opacity: .9;
+}
+
+#logo{
+    width: 100px;
+    height: 35px;
+}
+
+/* About-us Section */
+
+#about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+#about-us p.highlight{
+    margin-bottom: 15px;
+    color: #942f2f;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+#about-us h3{
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+#about-us .subtitle{
+    color: #5d5d5d;
+    width: 50%;
+    line-height: 1.5;
+    text-align: center;
+}
