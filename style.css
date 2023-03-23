@@ -134,7 +134,7 @@ a:hover {
 
 /* New talents section */
 
-#nt-container{
+#nt-container {
     padding: 40px 0;
 }
 
@@ -147,11 +147,10 @@ a:hover {
 }
 
 .nt-img {
-    width: 80%;
-    height: 500px;
+    margin-bottom: 40px;
 }
 
-.highlight-nt{
+.highlight-nt {
     background-color: #ddd;
     color: #942f2f;
     padding: 8px 12px;
@@ -159,12 +158,89 @@ a:hover {
     font-size: .9rem;
 }
 
-.nt-header h3{
+.nt-header h3 {
     font-size: 2.5rem;
 }
 
-.nt-header .description{
+.nt-header .description {
     color: #5d5d5d;
     font-size: 1.2rem;
     padding-bottom: 4rem;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobs {
+    padding: 40px;
+    border: 1px solid #ccc;
+    width: 75%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.job-title {
+    align-self: flex-start;
+    margin-left: 13%;
+}
+
+#margin-bottom {
+    margin-bottom: 40px;
+}
+
+.job-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-title,
+.job-position {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* Employee review section */
+
+.employee-review {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* border: 1px solid #ccc; */
+}
+
+.employee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.highlight-employee{
+    color: #942f2f;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.employee-quote{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.employee-name{
+    font-weight: 600;
+}
+
+.employee-position{
+    color: #555;
 }
