@@ -56,6 +56,7 @@ a {
     border-radius: 35px;
     color: white;
     padding: 8px 12px;
+    cursor: pointer;
 }
 
 .btn:hover,
@@ -147,7 +148,9 @@ a:hover {
 }
 
 .nt-img {
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
+    width: 75%;
+    border-radius: 5px;
 }
 
 .highlight-nt {
@@ -174,6 +177,7 @@ a:hover {
     gap: 30px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .jobs {
@@ -208,6 +212,13 @@ a:hover {
 
 /* Employee review section */
 
+#employee-review {
+    width: 75%;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
 .employee-review {
     display: flex;
     flex-direction: column;
@@ -215,10 +226,12 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 25px;
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: rgba(196, 25, 25, 0.03);
 }
 
-.employee{
+.employee {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,21 +239,74 @@ a:hover {
     gap: 10px;
 }
 
-.highlight-employee{
+.highlight-employee {
     color: #942f2f;
     font-size: .9rem;
     font-weight: 600;
 }
 
-.employee-quote{
+.employee-quote {
     font-weight: 700;
     font-size: 2rem;
+    text-align: center;
 }
 
-.employee-name{
+.employee-name {
     font-weight: 600;
 }
 
-.employee-position{
+.employee-position {
     color: #555;
+}
+
+/* Footer container */
+
+footer {
+    background: rgba(196, 25, 25, 0.03);
+    padding: 4rem;
+}
+
+.footer-container {
+    position: relative;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.footer-subtitle {
+    font-size: 1.2rem;
+    color: #5d5d5d;
+    padding-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+#email,
+#form-btn {
+    width: 70%;
+    border: none;
+    padding: 8px 12px;
+    outline: none;
+    transition: .3s;
+}
+
+#form-btn{
+    width: 18%;
+    border-radius: 5px;
+}
+
+#email:hover{
+    background-color: #f1f1f1;
+}
+
+#copyright{
+    color: #5d5d5d;
 }
